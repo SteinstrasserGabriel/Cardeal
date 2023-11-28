@@ -1,0 +1,23 @@
+Estrutura de Pastas
+frontend/
+
+css/: Armazene seus arquivos CSS aqui.
+js/: Mantenha os scripts JavaScript nesta pasta.
+img/: Guarde imagens e outros recursos visuais aqui.
+html/: Coloque seus arquivos HTML nesta pasta. Considere organizar por páginas ou componentes, dependendo da complexidade do seu projeto.
+    cadastro
+    login
+    cadastramento de agendamentos
+    manutenção de agendamentos
+    configuração da plataforma
+backend/
+
+handlers/: Contém os manipuladores HTTP para cada rota da sua aplicação.
+models/: Armazena as definições de modelos de dados.
+repositories/: Implementações de acesso a dados (se você estiver usando um banco de dados).
+services/: Lógica de negócios e manipulação de dados.
+utils/: Funções auxiliares e utilitários.
+main.go: Arquivo principal onde você inicia o servidor HTTP e define as rotas.
+config/: Mantenha arquivos de configuração aqui, como configurações de banco de dados ou outras variáveis de ambiente.
+
+static/: Se você tiver recursos estáticos que não são gerados dinamicamente pelo servidor (como imagens de perfil de usuário), você pode armazená-los aqui.
