@@ -35,7 +35,7 @@ func createUserHandler(w http.ResponseWriter, r *http.Request) {
 
 	// Lógica de processamento (por exemplo, salvar o usuário no banco de dados)
 
-	// https://sbsmidvdvyvweqfdswee.supabase.co/rest/v1/Users 
+	// https://sbsmidvdvyvweqfdswee.supabase.co/rest/v1/Users
 
 	// Retorna uma resposta de sucesso
 	w.Header().Set("Content-Type", "application/json")
